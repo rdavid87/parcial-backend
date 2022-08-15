@@ -14,6 +14,6 @@ spring:
           predicates: #RReglas de análisis de una request
             - Path=/games/**
         - id: userRoute #Identificando la ruta del service de producto
-          uri: http://localhost:8081/ #URL donde se hará el redirect segun el predicate definido
+          uri: http://localhost:8084/ #URL donde se hará el redirect segun el predicate definido
           predicates: #RReglas de análisis de una request
             - Path=/libraries/**
