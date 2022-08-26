@@ -8,7 +8,7 @@ spring:
         defaultZone: http://localhost:8761/eureka
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1;
+    url: jdbc:h2:mem:dbCatalog;DB_CLOSE_DELAY=-1;
     username: sa
     password: sa
   sql:
@@ -17,4 +17,4 @@ spring:
   jpa:
     defer-datasource-initialization: true
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: udpate
