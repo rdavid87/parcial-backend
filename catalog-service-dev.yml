@@ -17,4 +17,4 @@ spring:
   jpa:
     defer-datasource-initialization: true
     hibernate:
-      ddl-auto: udpate
+      ddl-auto: create-drop
