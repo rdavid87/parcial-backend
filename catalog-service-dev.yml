@@ -13,7 +13,7 @@ spring:
     password: sa
   sql:
     init:
-      data-locations: classpath:games.sql
+      data-locations: classpath:catalog.sql
   jpa:
     defer-datasource-initialization: true
     hibernate:
